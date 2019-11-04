@@ -1,0 +1,70 @@
+<html>
+<head>
+	<style>
+		#hero{
+			width:100%;
+			height:400px;
+			background-color:gray;
+		}
+		.food-container{
+			width:33.3%;
+			height:200px;
+			background-color:maroon;
+		}
+		#breakfast, #lunch, #dinner{
+			display:flex;
+			margin:0 5px;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div id="hero"></div>
+	<nav>
+		<ul>
+			<li>HOME</li>
+			<li>FOOD PLATE</li>
+			<li>HEALTHY HABITS</li>
+		</ul>
+	</nav>
+	
+	<form>
+		<select>
+			<option>Male</option>
+			<option>Female</option>
+		
+		</select>
+		<select>
+			<option>Not Active</option>
+			<option>Moderately Active</option>
+			<option>Active</option>
+		
+		</select>
+	</form>
+	
+	<div id="breakfast">
+		<div class="food-container"></div>
+		<div class="food-container"></div>
+		<div class="food-container"></div>
+		
+	</div>
+	
+	<div id="lunch">
+		<div class="food-container"></div>
+		<div class="food-container"></div>
+		<div class="food-container"></div>
+	</div>
+		
+	
+	<div id="dinner">
+		<div class="food-container"></div>
+		<div class="food-container"></div>
+		<div class="food-container"></div>
+	</div>
+
+
+</body>
+
+
+</html>
