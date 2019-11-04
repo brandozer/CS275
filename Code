@@ -1,0 +1,60 @@
+<html>
+<head>
+	<style>
+		#hero{
+			height:600px;
+			width:100%;
+			background-color:gray;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+		}
+		form{
+			background-color:#fff;
+			padding:20px 50px;
+		}
+		nav ul li{
+			display:inline-block;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div id="hero">
+		<form>
+		
+			<p>What is your gender:</p>
+			<input type="radio" value="male">Male
+			<input type="radio" value="female">Female
+			<br/>
+			<p>What is your activity level:</p>
+			<select>
+				<option>Low Activity</option>
+				<option>Moderate Activity</option>
+				<option>High Activity</option>
+			</select><br/>
+			<p>What is your age:</p>
+			
+			<input type="text"><br/>
+			<button>Submit</button>
+		
+		</form>
+	</div>
+	<nav>
+	
+		<ul>
+			<li>Home</li>
+			<li>Todays Menu</li>
+			<li>Home</li>
+			<li>Home</li>
+		
+		</ul>
+	
+	</nav>
+
+
+</body>
+
+
+</html>
